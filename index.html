@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Додзё Медиа — цифровое ремесло, измеримый результат</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Oranienbaum&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <a class="wordmark" href="#top">Додзё Медиа</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#projects">Проекты</a>
+        <a href="#approach">Подход</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn header__cta" id="cta-top" href="mailto:hello@dojo-media.com">Обсудить проект →</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+        <svg class="icon-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 9.5h14M5 14.5h14"/></svg>
+        <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+      <a href="#projects">Проекты</a>
+      <a href="#approach">Подход</a>
+      <a href="#contacts">Контакты</a>
+      <a class="btn"  href="mailto:hello@dojo-media.com">Обсудить проект →</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero" id="approach">
+        <p class="label">Сайты · Поиск · Смысл</p>
+        <div class="hero__intro">
+          <h1 class="h1">Цифровое ремесло.<br>Измеримый результат.</h1>
+          <div class="hero__desc">
+            <p class="lead">Собираем сайты, поиск и рекламу в единую систему. Помогаем амбициозным брендам расти.</p>
+            <p class="label">Из Ярославля — в любую точку мира</p>
+          </div>
+        </div>
+        <div class="hero__image" role="img" aria-label="Мастера за работой над цифровыми проектами"></div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects__head">
+          <h2 class="h2">Избранные работы</h2>
+          <p class="label">Три проекта. Три истории</p>
+        </div>
+        <div class="projects__grid">
+          <a class="card" href="#cta-top">
+            <div class="card__img card__img--1" role="img" aria-label="Брискли"></div>
+            <h3 class="card__title">БРИСКЛИ</h3>
+            <p class="small muted">Сайт · Брендинг · Реклама</p>
+            <span class="small">Смотреть проект →</span>
+          </a>
+          <a class="card" href="#cta-top">
+            <div class="card__img card__img--2" role="img" aria-label="Трейд Оверсиз"></div>
+            <h3 class="card__title">ТРЕЙД ОВЕРСИЗ</h3>
+            <p class="small muted">Сайт · Стратегия · Реклама</p>
+            <span class="small">Смотреть проект →</span>
+          </a>
+          <a class="card" href="#cta-top">
+            <div class="card__img card__img--3" role="img" aria-label="Гостиный двор"></div>
+            <h3 class="card__title">ГОСТИНЫЙ ДВОР</h3>
+            <p class="small muted">Сайт · Брендинг · Стратегия</p>
+            <span class="small">Смотреть проект →</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__content">
+        <div class="footer__copy">
+          <h2 class="h2">Начнём с вашей идеи.</h2>
+          <a class="small muted" href="mailto:hello@dojo-media.com">hello@dojo-media.com</a>
+        </div>
+        <a class="btn" id="cta-bottom" href="mailto:hello@dojo-media.com">Обсудить проект →</a>
+      </div>
+      <div class="footer__bottom">
+        <span class="small muted">© <span id="year">2026</span> Додзё Медиа</span>
+        <span class="small muted">Мастерство начинается с деталей.</span>
+      </div>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
